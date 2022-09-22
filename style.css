@@ -1,0 +1,61 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /*background-image: url("https://cdn.pixabay.com/photo/2016/02/18/22/33/forest-1208296__480.jpg");*/
+  text-align: center;
+
+}
+
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  color: brown;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 1em;
+  color: darkorange; 
+  background-color: pink;
+  overflow: hidden;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
+  align-items: center;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  display: inline;
+}
+
+/* STYLE IMAGES */
+.answer-choice img{
+  margin-top: 8px;
+  height: 13em;
+  width: 15em; 
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 6px;
+  font-family: Book Antiqua;
+  font-size: 15px;
+  background-color: lightcyan;
+  border: 3px black solid;
+  padding: 10px;
+}
+
+
+button:hover{
+  transition: 0.8s;
+  background-color:lightblue;
+}
+
